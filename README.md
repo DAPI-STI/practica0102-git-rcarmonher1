@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 5) **Ejecuta los tests** (verás que FALLAN al principio):
 ```bash
-pytest -q
+python -m pytest
 ```
 6) **Implementa** las funciones en `src/` siguiendo los `# TODO`:
 - `src/math_ops.py` → `add(a, b)` suma y devuelve el resultado.
