@@ -11,5 +11,5 @@ def shout(text: str) -> str:
     >>> shout("Redes Telemáticas")
     'REDES TELEMÁTICAS'
     """
-    # TODO: Convierte `text` a mayúsculas y devuélvelo
+    return text.upper();
     raise NotImplementedError("Implementa shout(text)")
